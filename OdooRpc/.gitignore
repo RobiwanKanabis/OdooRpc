@@ -1,0 +1,195 @@
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# User-specific files (Mono auto generated)
+mono_crash.*
+
+# User preferences for VS
+.vscode/
+.vscode/*
+
+# User-specific files (Visual Studio Code)
+.vscode/settings.json
+.vscode/tasks.json
+.vscode/launch.json
+.vscode/jsconfig.json
+.vscode/npm-debug.log*
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# VS auto generated files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.vspscc
+*.vssscc
+
+# CMake
+[Cc]Make[Cc]ache.txt
+[Cc]MakeFiles/
+*.cmake
+CMakeLists.txt.user
+
+# Rider
+.idea/
+.idea/*
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# Entity Framework
+*.jfm
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Project temporary files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# DotNet CLI
+**/project.lock.json
+**/project.fragment.lock.json
+**/artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version. Backup files are not needed,
+# because we have git ;-)
+*.UpgradeLog.*
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# LightSwitch generated files
+GeneratedArtifacts/
+_Pvt_Extensions/
+ModelManifest.xml
+*.lspkg
+*.IsolatedEnvironment
+.sln.docstates
+
+# Web site projects
+*.publish.xml
+*.azurePubxml
+*.azurePubxml.user
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+
+# Visual Studio cache files
+.vs/
+# Node.js dependencies
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# Microsoft Azure Build Output
+csx/
+*.build.csdef
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Project temporary files
+.vs/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# DotNet CLI
+**/project.lock.json
+**/project.fragment.lock.json
+**/artifacts/
+
+# StyleCop
+StyleCopReport.xml
+
+# Backup & report files from converting an old project file
+# to a newer Visual Studio version. Backup files are not needed,
+# because we have git ;-)
+*.UpgradeLog.*
+UpgradeLog*.XML
+UpgradeLog*.htm
+
+# LightSwitch generated files
+GeneratedArtifacts/
+_Pvt_Extensions/
+ModelManifest.xml
+*.lspkg
+*.IsolatedEnvironment
+.sln.docstates
+
+# Web site projects
+*.publish.xml
+*.azurePubxml
+*.azurePubxml.user
+
+# Windows Store app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+
+# Windows Phone app package directories and files
+AppPackages/
+BundleArtifacts/
+Package.StoreAssociation.xml
+_pkginfo.txt
+*.appx
+
+# Xamarin
+*.apk
+*.ap_
+*.dex
+*.jar
+*.apk
+*.ap_
+*.dex
