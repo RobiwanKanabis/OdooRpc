@@ -1,3 +1,5 @@
+using Microsoft.VisualStudio.Threading;
+using Nethereum.JsonRpc.Client;
 using OdooRpc.Client;
 
 namespace OdooRpc.Test
@@ -11,12 +13,20 @@ namespace OdooRpc.Test
             try
             {
                 var odooRpcClient = new OdooRpcClient();
-                odooRpcClient.Authenticate();
+                odooRpcClient.TestDatabase();
+                //odooRpcClient.Authenticate();
             }
             catch(Exception ex)
             {
                 Assert.Fail(ex.Message);
             }
+        }
+
+        private async Task Test()
+        {
+            var httpClient = new HttpClient();
+            var client = new RpcClient(new Uri("https://demo.odoo.com/start"), httpClient);
+            await client.SendRequestAsync("start", null, new { });
         }
     }
 }
